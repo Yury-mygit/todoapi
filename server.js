@@ -4,6 +4,7 @@ const cors = require('cors');
 const app = express();
 const {logEvents, logger} = require('./midleware/logEvents');
 const errorHandler = require('./midleware/errorHandler');
+const corsOptions = require('./config/corsOptions')
 
 const path = require('path');
 const PORT = process.env.PORT || 3500;
@@ -13,22 +14,7 @@ const PORT = process.env.PORT || 3500;
 app.use(logger)
 
 
-const whitelist = [
-    'https://www.yoursite.com', 
-    'http://127.0.0.1:5500', 
-    'http://localhost:3500',
-    "https://www.google.com"
-];
-const corsOptions = {
-    origin: (origin, callback) => {
-        if (whitelist.indexOf(origin) !== -1 || !origin) {  // || !origin только для разработки
-            callback(null, true)
-        } else {
-            callback(new Error('Not allowed by CORS'));
-        }
-    },
-    optionsSuccessStatus: 200
-}
+
 app.use(cors(corsOptions));
 
 // built-in middleware to handle urlencoded data

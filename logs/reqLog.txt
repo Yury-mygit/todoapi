@@ -44,3 +44,12 @@
 20220831	18:38:24	10f795a8-2dba-4df4-9a7a-2121714cdd77	GET	undefined	/employees}
 20220831	18:44:46	b963027d-0ccf-4c98-a3af-d49c421b8046	DELETE	undefined	/employees}
 20220831	18:45:28	88f419b5-7140-4769-9288-fe7fc81b87e6	DELETE	undefined	/employees}
+20220831	19:11:27	e7400e0e-8215-4660-a3df-780ed3afdae0	POST	undefined	/employees}
+20220831	19:11:47	9a5f6da5-8c37-4cc0-b55d-0080e27c2856	GET	undefined	/employees}
+20220831	19:12:00	0f56ef74-61b2-4cf5-9507-7f48d32f63e3	GET	undefined	/employee/1}
+20220831	19:12:18	757feebb-8505-4f51-8490-eea841c09005	GET	undefined	/employee?1}
+20220831	19:12:38	21e9fa76-2b4b-49b0-94c4-a4c6e5142fda	GET	undefined	/employee/?1}
+20220831	19:13:14	e7a69c90-2e3a-473a-82bb-e68d3f8e89d1	GET	undefined	/employee/1}
+20220831	19:13:52	2cf50c58-b99b-462e-b815-f6bc0c9c3528	GET	undefined	/employees/1}
+20220831	19:29:51	15805e14-1173-4a31-8811-923843617610	GET	undefined	/employees}
+20220831	19:30:51	3c58b782-1f21-41c1-9bb7-0e9af47eef60	POST	undefined	/employees/}
