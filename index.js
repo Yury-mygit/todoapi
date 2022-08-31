@@ -2,13 +2,25 @@
 const fsPromises = require('fs').promises;
 const path = require('path');
 
+const fileOps = async () => {
+    try{
+        const data = await fsPromises.readFile(path.join(__dirname, 'files', 'starter.txt'), 'utf8');
+        console.log(data)
+        // await fsPromises.unlonk(path.join(__dirname, 'files', 'starter.txt')); // delete file
 
-// fs.readFile('./files/starter.txt', 'utf8' ,(err, data)=>{
-fs.readFile(path.join(__dirname, 'files', 'starter.txt'), 'utf8' ,(err, data)=>{
-    if (err) throw err;
-    // console.log(data.toString());
-    console.log(data);
-})
+        await fsPromises.writeFile(path.join(__dirname, 'files', 'promiseWrite.txt'),data);
+        await fsPromises.appendFile(path.join(__dirname, 'files', 'promiseWrite.txt'), '\n\n Nise to meet you.');
+        await fsPromises.rename( path.join(__dirname, 'files', 'promiseWrite.txt'), path.join(__dirname, 'files', 'promisecomplite.txt') );
+
+        const newData = await fsPromises.readFile(path.join(__dirname, 'files', 'promisecomplite.txt'), 'utf8');
+        console.log(newData)
+
+    }catch (err) {
+        console.error(err)
+    }
+}
+
+fileOps();
 
 console.log('hello....')
 
