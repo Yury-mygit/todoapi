@@ -30,3 +30,17 @@
 20220831	17:58:01	428213a1-7671-4a74-8c2e-5007e984bfbb	GET	undefined	/css/style.css}
 20220831	17:58:06	2226ec0c-356c-4acd-b106-849c0a6d9353	GET	undefined	/}
 20220831	17:58:07	29d0ce76-16d1-412b-a337-58fd7e99d989	GET	undefined	/css/style.css}
+20220831	18:19:37	1a4622fa-dbb0-4d9e-bd2d-c04320e7b3f3	GET	undefined	/}
+20220831	18:19:37	dd9c83c8-71d8-43ba-b452-2ecc29251775	GET	undefined	/css/style.css}
+20220831	18:19:46	2495fcf6-266c-424b-a3ea-ec0028704aa9	GET	undefined	/subdir/index}
+20220831	18:21:47	1646f5c6-3d5a-4d8f-8b67-193b38d0e85e	GET	undefined	/subdir/index}
+20220831	18:21:54	2727ca81-80b0-4b4f-b537-6f754b2178ff	GET	undefined	/subdir/indexww}
+20220831	18:21:55	e07cb7b9-35ee-4a1f-9367-9a779a73bf3e	GET	undefined	/subdir/css/style.css}
+20220831	18:26:22	d9a2478a-8c6f-42a3-84aa-dd381ec8c4fe	GET	undefined	/}
+20220831	18:26:22	3ae979e7-c4fe-4b54-b8bd-091fa375e1b5	GET	undefined	/css/style.css}
+20220831	18:26:37	7ae052b7-19ee-4f37-bb09-335a197edd4f	GET	undefined	/new-page.html}
+20220831	18:26:38	bf3a3031-623f-4f3b-bc66-d4ecb9c953a6	GET	undefined	/css/style.css}
+20220831	18:26:38	f226b8e6-6dec-40f7-9d21-95cedfc43199	GET	undefined	/img/img1.jpg}
+20220831	18:38:24	10f795a8-2dba-4df4-9a7a-2121714cdd77	GET	undefined	/employees}
+20220831	18:44:46	b963027d-0ccf-4c98-a3af-d49c421b8046	DELETE	undefined	/employees}
+20220831	18:45:28	88f419b5-7140-4769-9288-fe7fc81b87e6	DELETE	undefined	/employees}
