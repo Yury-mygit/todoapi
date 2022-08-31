@@ -1,3 +1,32 @@
 20220831	15:11:42	32a77beb-428d-48b3-bdcf-50fc3aeff0ba	/	GET
 20220831	15:11:42	111a3645-a3e7-4a78-ad92-182e7f6fe0cc	/css/style.css	GET
 20220831	15:11:42	c2b372c9-27e4-43f3-8865-4237b3a700db	/favicon.ico	GET
+20220831	17:45:30	8a74f5a4-c0ad-4bc7-8d3b-577635d68c8a	GET	undefined	/new-page.html}
+20220831	17:45:31	fe400afa-e7f4-4f18-9079-dc223686024d	GET	undefined	/css/style.css}
+20220831	17:45:31	093d458d-7298-4f7c-8dd2-12b8fac4cb56	GET	undefined	/img/img1.jpg}
+20220831	17:45:35	57c6f435-380e-4686-a57b-ba3828302b91	GET	undefined	/}
+20220831	17:45:36	bdfd78f3-1570-4635-a0ca-badf3078a296	GET	undefined	/css/style.css}
+20220831	17:48:44	168632de-050c-440c-a57f-a88b9bc0adc7	GET	undefined	/}
+20220831	17:48:44	de14589f-22d7-468c-94b8-e4bece34c187	GET	undefined	/css/style.css}
+20220831	17:48:48	3c9a6736-e341-4029-91d6-4cae6a9f6d5d	GET	undefined	/}
+20220831	17:48:49	f7dcdbb1-3155-4e8b-ab00-51fbd8805929	GET	undefined	/css/style.css}
+20220831	17:49:55	715ce0e5-9833-4884-813e-54262a59364b	OPTIONS	https://www.google.com	/}
+20220831	17:49:55	4be19e05-c82b-46bf-b9c7-d890e833e468	GET	https://www.google.com	/}
+20220831	17:52:28	98abd2f2-1e78-44c2-868f-67e72ee5578d	OPTIONS	https://www.google.com	/}
+20220831	17:52:28	da06c985-a900-40f1-a6e2-23e6ab7b40ec	GET	https://www.google.com	/}
+20220831	17:52:35	3c0218eb-2af7-49d8-ba08-b4ddd3e545ac	OPTIONS	https://www.google.com	/}
+20220831	17:52:35	48c75752-9b82-4ec1-a073-b9f3309dcc09	GET	https://www.google.com	/}
+20220831	17:54:30	f13d387c-6560-43fb-9a22-71fa2008dbfc	OPTIONS	https://www.google.com	/}
+20220831	17:54:30	cb35fdf2-4962-489c-a440-356a6338749f	GET	https://www.google.com	/}
+20220831	17:54:38	85998961-ffa2-45d6-93df-e0395c9b956e	OPTIONS	https://www.google.com	/}
+20220831	17:54:38	609e9243-a83f-43f8-bb03-6c369e428802	GET	https://www.google.com	/}
+20220831	17:54:44	4aadb1f1-710c-4ceb-bf0c-fab5571a2200	OPTIONS	https://www.google.com	/}
+20220831	17:54:44	908554cc-84b8-4edf-bd05-d4a7ec700054	GET	https://www.google.com	/}
+20220831	17:54:45	0e4014e3-cd6d-42c7-8ad3-208402952618	OPTIONS	https://www.google.com	/}
+20220831	17:54:45	a101b3ad-8511-493c-a387-ea5e6ad18a35	GET	https://www.google.com	/}
+20220831	17:54:51	2dcfd81d-2db1-4778-bc16-391ff6e73d19	OPTIONS	https://www.google.com	/}
+20220831	17:54:51	6a5c1345-112c-4fcf-856f-d352c536d871	GET	https://www.google.com	/}
+20220831	17:58:00	0a1afaa8-e08e-44d4-9297-a3e0e8308e16	GET	undefined	/}
+20220831	17:58:01	428213a1-7671-4a74-8c2e-5007e984bfbb	GET	undefined	/css/style.css}
+20220831	17:58:06	2226ec0c-356c-4acd-b106-849c0a6d9353	GET	undefined	/}
+20220831	17:58:07	29d0ce76-16d1-412b-a337-58fd7e99d989	GET	undefined	/css/style.css}
