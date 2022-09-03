@@ -4,6 +4,7 @@ const data = {
 }
 
 const getAllEmployees = (req, res) => {
+    console.log("getAllEmployees")
     res.json(data.employees);
 }
 

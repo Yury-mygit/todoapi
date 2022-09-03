@@ -5,7 +5,8 @@ const app = express();
 const {logEvents, logger} = require('./midleware/logEvents');
 const errorHandler = require('./midleware/errorHandler');
 const corsOptions = require('./config/corsOptions')
-
+const cookieParser = require('cookie-parser')
+const verifyJWT = require('./midleware/verifyJWT')
 const path = require('path');
 const PORT = process.env.PORT || 3500;
 
@@ -25,19 +26,33 @@ app.use(express.urlencoded({ extended: false }));
 // built-in middleware for json 
 app.use(express.json());
 
+// // built-in cookie parser
+// app.use(cookieParser());
+
+//middleware for cookies
+app.use(cookieParser());
+
 //serve static files
 app.use('/', express.static(path.join(__dirname, '/public')));
 app.use('/subdir', express.static(path.join(__dirname, '/public')));
 
-
 // routes
 app.use('/', require('./routes/root'));
 app.use('/subdir', require('./routes/subdir'));
+app.use('/register', require('./routes/register'));
+app.use('/auth', require('./routes/auth'));
+console.log('refresh')
+app.use('/refresh', require('./routes/refresh'));
+
+console.log('До проверки токена')
+
+app.use(verifyJWT);
+
 app.use('/employees', require('./routes/api/employees'));
-app.use('/register', require('./routes/api/register'));
-app.use('/auth', require('./routes/api/auth'));
 
 
+
+console.log('Not found')
 
 app.all('*', (req, res) => {
     res.status(404);
