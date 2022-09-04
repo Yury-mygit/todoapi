@@ -1,0 +1,4 @@
+20220903	17:59:06	f75f0131-0d84-4ace-a135-d452f1401afe	Error: Cannot set headers after they are sent to the client
+20220904	06:40:45	f447f5b3-571f-448d-b335-ecdffcba5783	TypeError: allowedOrigins.includes is not a function
+20220904	06:56:38	84bc57cc-fb69-48f1-86de-695b8b154801	ReferenceError: roles is not defined
+20220904	06:58:19	4501666d-2a61-490f-97b3-f30988ea0782	ReferenceError: roles is not defined

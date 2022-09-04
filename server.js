@@ -2,19 +2,24 @@ const { nextDay } = require('date-fns');
 const express = require('express')
 const cors = require('cors');
 const app = express();
-const {logEvents, logger} = require('./midleware/logEvents');
-const errorHandler = require('./midleware/errorHandler');
-const corsOptions = require('./config/corsOptions')
+const corsOptions = require('./config/corsOptions');
+const credentials = require('./middleware/credentials');
+const {logEvents, logger} = require('./middleware/logEvents');
+const errorHandler = require('./middleware/errorHandler');
 const cookieParser = require('cookie-parser')
-const verifyJWT = require('./midleware/verifyJWT')
+const verifyJWT = require('./middleware/verifyJWT')
 const path = require('path');
 const PORT = process.env.PORT || 3500;
+
+console.log('Before midleware')
 
 
 //Custom midleware
 app.use(logger)
 
-
+// Handle options credentials check - before CORS!
+// and fetch cookies credentials requirement
+app.use(credentials);
 
 app.use(cors(corsOptions));
 
@@ -36,13 +41,13 @@ app.use(cookieParser());
 app.use('/', express.static(path.join(__dirname, '/public')));
 app.use('/subdir', express.static(path.join(__dirname, '/public')));
 
-// routes
+// open for all routes
 app.use('/', require('./routes/root'));
 app.use('/subdir', require('./routes/subdir'));
 app.use('/register', require('./routes/register'));
 app.use('/auth', require('./routes/auth'));
-console.log('refresh')
 app.use('/refresh', require('./routes/refresh'));
+app.use('/logout', require('./routes/logout'));
 
 console.log('До проверки токена')
 
